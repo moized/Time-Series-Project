@@ -1,0 +1,4 @@
+- [ ] Verify that the copilot-instructions.md file in the .github directory is created.
+- Work through each checklist item systematically.
+- Keep communication concise and focused.
+- Follow development best practices.

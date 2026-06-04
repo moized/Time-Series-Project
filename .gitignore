@@ -1,0 +1,24 @@
+# ==========================================
+# 1. Core Environment & Jupyter Checkpoints
+# ==========================================
+__pycache__/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.venv/
+bdv_env/
+.pytest_cache/
+*.exe
+
+# ==========================================
+# 2. Local Untracked Archive Layer
+# ==========================================
+/archive/
+
+# ==========================================
+# 3. Data & Global File Protection
+# ==========================================
+*.csv
+*.xlsx
+*.zip
+*.pdf
+/data/

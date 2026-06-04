@@ -1,0 +1,25 @@
+# Orijinal Ödev Talimatları
+
+## 1. Ödev Konusunun Amacı
+TEİAŞ aylık elektrik üretim/tüketim serilerinde trend ve mevsimsellik yapısını incelemek; STL ayrıştırmasıyla bileşenleri ortaya koyup SARIMA/SARIMAX ile kısa vadeli tahmin performansını değerlendirmek.
+
+## 2. Veri Kaynakları ve Gerekçesi
+- Veri: data/raw/teias_uretim_tuketim.csv (ayraç `;`)
+- Kaynak: TEİAŞ aylık elektrik üretim/tüketim verileri (güvenilir kurum, aylık mevsimsellik için yeterli uzunluk)
+- Hedef kolon: `Total_Üretim` (gerekirse `Brüt_Üretim`)
+
+## 3. Proje Aşamaları
+1) Literatür ve soru tanımı
+2) Veri keşfi: seri grafikleri, YoY%, ay bazında dağılım, ADF/KPSS
+3) Model: STL (period=12) ve tek değişkenli mevsimsel SARIMAX
+4) Tahmin: Son 12 ay holdout; RMSE/MAE/MAPE + AIC/BIC
+5) Raporlama: Bulgular, sınırlılıklar, gelecek çalışmalar
+
+## 4. Yazılım ve Araçlar
+- Python: pandas, numpy, statsmodels (STL, SARIMAX), seaborn, matplotlib
+- İsteğe bağlı: pmdarima (otomatik SARIMA araması)
+
+## Gönderim Notları
+- Son teslim: 2 Ocak 2025
+- Sunum: Aralık/Ocak oturumu
+- Dosya adı: UYG Zaman Ser. Öğrenci No Ad Soyad

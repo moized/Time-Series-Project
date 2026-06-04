@@ -1,0 +1,11 @@
+pandas>=2.1
+numpy>=1.26
+scipy>=1.11
+statsmodels>=0.14
+pmdarima>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+openpyxl>=3.1
+jupyter>=1.0
+nbconvert>=7.0
+ipykernel>=6.0

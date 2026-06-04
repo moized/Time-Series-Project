@@ -22,3 +22,4 @@ bdv_env/
 *.zip
 *.pdf
 /data/
+organize_workspace.py
